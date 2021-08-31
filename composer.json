@@ -1,0 +1,25 @@
+{
+    "name": "buchin/ddg-images",
+    "description": "Scrape images from duckduckgo",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Buchin\\DdgImages\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mochammad Masbuchin",
+            "email": "buchin@dropsugar.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require-dev": {
+        "kahlan/kahlan": "dev-master"
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^6.5.5 || ^7.0.1",
+        "illuminate/http": "~8.0"
+    }
+}
